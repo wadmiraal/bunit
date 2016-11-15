@@ -1,6 +1,8 @@
 BUnit
 =====
 
+[![Build Status](https://travis-ci.org/wadmiraal/bunit.svg?branch=master)](https://travis-ci.org/wadmiraal/bunit)
+
 A simple unit testing framework for Bash.
 
 Should I use this?
