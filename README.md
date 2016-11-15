@@ -6,7 +6,7 @@ A simple unit testing framework for Bash.
 Should I use this?
 ------------------
 
-Honestly, probably not :-). This is just a side project to improve by Bash knowledge (based on a tip by Kent Beck in his *Test Driven Development: By Example*). If you really want a solid framework, I suggest using something like [Bats](https://github.com/sstephenson/bats).
+Honestly, **probably not** :-). This is just a side project to improve by Bash knowledge (based on a tip by Kent Beck in his *Test Driven Development: By Example*). If you really want a solid framework, I suggest using something like [Bats](https://github.com/sstephenson/bats).
 
 But I really want to give it a try
 ----------------------------------
@@ -49,9 +49,20 @@ Ran 9 assertions, 8 passed and 1 failed.
 
 Finished.
 Ran 9 assertions in total.
-	- 8 passed
-	- 1 failed
+	✓ 8 passed
+	✗ 1 failed
 
 ```
+
+Assertions
+----------
+
+The following assertions are available.
+
+- `assert_equals`, usage: `assert_equals $a $b "Assert that a is equal to b"`
+- `assert_not_equals`, inverse of the above
+- `assert_exit_code`, usage: `assert_exit_code 'ls /home' 0 "Assert the exist code from ls is 0"`
+- `assert_pass`, usage: `assert_pass "This assertion always passes"`
+- `assert_fail`, inverse of the above
 
 
