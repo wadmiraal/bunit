@@ -24,7 +24,7 @@ Test functions should be prefixed with `test_`. They will be executed in sequenc
 
 Example test file:
 
-```
+```bash
 #!/bin/bash
 
 describe "This is a test suite"
