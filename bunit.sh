@@ -2,7 +2,7 @@
 
 # Test bash scripts.
 # This small utility can test bash unit tests. Unit tests must be located in 
-# their own folder (called __tests__/ by default), and end with a *.test.sh
+# their own folder (called tests/ by default), and end with a *.test.sh
 # extension.
 
 
